@@ -1,5 +1,6 @@
 // BLOCO PARA VALIDAÇÃO DE EMAIL
-// ---------------------------------------
+// -----------------------------
+// Checar Email
 function checarEmail() {
   if (
     document.forms[0].email.value == "" ||
@@ -18,6 +19,7 @@ function checarEmail() {
 
 // CÓDIGO DE VERIFICAÇÃO DE EMAIL DIGITADO
 // ------------------------------------------
+// Verificação
 
 function verifica() {
   if (document.forms[0].email.value == 0) {
@@ -29,3 +31,4 @@ function verifica() {
 }
 
 // -------------------------------------------
+
